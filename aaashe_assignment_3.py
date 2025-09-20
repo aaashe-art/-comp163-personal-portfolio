@@ -10,7 +10,7 @@ Major = "Information technology"
 
 Current_course_list = ["COMP 163", "MATH 131", "Mgmt 343", "ENVS 201"]
 Completed_course_list = ["pre calc", "Public speaking", "African American History", "Biology"]
-Credit_hours_list = [3, 3, 3, 3]
+Credit_hours_list = [3, 4, 3, 3]
 GPA_history_list = [3.0, 2.5, 3.0, 2.8]
 
 #Contact Information Storage(TUPLES)
@@ -32,11 +32,11 @@ Entertainment_backlog_set = {"One Piece", "comicks", "Music", "drawing", "sports
 
 #Organizational Mapping(Dictionaries)
 
-course_credits_dictionary = {"COMP 163":3, "MATH 150":3, "ENG 101":3, "HIS 105":3}
-Course_professors_dictionary = {"COMP 163":"Prof. Rhodes", "MATH 150":"Dr. Lee", "ENG 101":"Dr. Martinez", "HIS 105":"Dr. Brown"}
-Course_room_dictionary = {'COMP 163': 'M-Eric 300', 'MATH 150': 'Marteena 201','ENG 101': 'Crosby 121', 'HIS 105': 'Crosby 210'}
-Monthly_budget_dictionary = {"Food":450, "Entertainment":200, "Books":125, "Transportation":100}
-Study_hours = {"Programming":10, "Math":8, "English":4, "History":3}
+course_credits_dictionary = {"COMP 163":3, "MATH 131":4, "Mgmt 343":3, "ENVS 201":3}
+Course_professors_dictionary = {"COMP 163":"Prof. Rhodes", "MATH 131":"Prof Rastigeyev", "Mgmt 343":"Dr. Weeber", "ENVS 201":"Prof Lewis"}
+Course_room_dictionary = {'COMP 163': 'Gibbs Hall  337', 'MATH 131': 'Marteena Hall 222','Mgmt 343': 'Craig Hall B236', 'ENVS 201': 'online'}
+Monthly_budget_dictionary = {"Food":450, "Entertainment":200, "Books":0, "Transportation":70}
+Study_hours = {"Programming":10, "Math":8, "MGMT":0, "ENVS":3}
 Contact_directory = {"Mom":7045550199, "Roommate":3365557821, "Academic Advisor":3363345000}
 
 #Required Calculations
